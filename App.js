@@ -27,7 +27,7 @@ export default class App extends React.Component {
         <Header
           backgroundColor={'#9c8210'}
           centerComponent={{
-            text: 'Monkey Chunky',
+            text: 'Monkey Chunky!',
             style: { color: '#fff', fontSize: 20 },
           }}
         />
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#b8b8b8',
   },
   inputBox: {
-    marginTop: 50,
+    marginTop: 70,
     width: '80%',
     alignSelf: 'center',
     height: 40,
@@ -104,6 +104,6 @@ const styles = StyleSheet.create({
   imageIcon: {
     width: 150,
     height: 150,
-    marginLeft: 95,
+    marginLeft: 70,
   }
 });
